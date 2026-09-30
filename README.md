@@ -110,19 +110,19 @@ If the browser blocks `localStorage`, the site shows an error message instead of
 
 ## Testing
 
-Test cases are listed in `docs/test-cases.md`. Screenshots are in the `screenshots/` folder.
+Full test cases are listed in `docs/test-cases.md`. Lighthouse screenshots are in the `screenshots/` folder.
 
 | # | Test | Expected result | Result |
 |---|------|-----------------|--------|
-| 1 | Submit an empty form | Errors under all four fields | _fill after testing_ |
-| 2 | Enter email `abc` | Email error is shown | _fill after testing_ |
-| 3 | Submit a correct form | Success message with a request ID | _fill after testing_ |
-| 4 | Check that new ID in Status | Shows "Received" | _fill after testing_ |
-| 5 | Check `SH1001` | Shows "In Progress" | _fill after testing_ |
-| 6 | Check `SH9999` | "No request found" message | _fill after testing_ |
-| 7 | Check with empty ID | "Please enter your request ID" | _fill after testing_ |
-| 8 | Open on mobile width (about 375px) | Layout fits, no sideways scroll | _fill after testing_ |
-| 9 | Use only the keyboard (Tab key) | All links and fields reachable, focus visible | _fill after testing_ |
+| 1 | Submit an empty form | Errors under all four fields | Pass |
+| 2 | Enter email `abc` | Email error is shown | Pass |
+| 3 | Submit a correct form | Success message with a request ID | Pass |
+| 4 | Check that new ID in Status | Shows "Received" | Pass |
+| 5 | Check `SH1001` | Shows "In Progress" | Pass |
+| 6 | Check `SH9999` | "No request found" message | Pass |
+| 7 | Check with empty ID | "Please enter your request ID" | Pass |
+| 8 | Open on mobile width (about 375px) | Layout fits, no sideways scroll | Not checked yet |
+| 9 | Use only the keyboard (Tab key) | All links and fields reachable, focus visible | Not checked yet |
 
 ## Performance and Accessibility Review
 
