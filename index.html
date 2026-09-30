@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Description helps search engines and Lighthouse SEO score -->
+    <meta name="description" content="ServiceHub - discover local services, send an enquiry and track your request status.">
+
+    <title>Local Business Service Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Skip link: lets keyboard users jump straight to the content -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <header>
+        <nav aria-label="Main navigation">
+            <!-- Changed from h2 to div so the page heading order stays correct (h1 first) -->
+            <div class="logo">ServiceHub</div>
+
+            <div>
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#enquiry">Enquiry</a>
+                <a href="#status">Status</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- All main page content goes inside <main> -->
+    <main id="main">
+
+        <!-- Home Section -->
+        <section id="home" class="hero">
+
+            <div>
+                <h1>Find the Right Service for You</h1>
+
+                <p>
+                    Discover local services, send an enquiry
+                    and track your request easily.
+                </p>
+
+                <a href="#services" class="button">
+                    Explore Services
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- Services Section -->
+        <section id="services">
+
+            <h2>Our Services</h2>
+
+            <div class="service-container">
+
+                <!-- Each card uses <article> because it is a self-contained item -->
+                <article class="service-card">
+                    <h3>Website Development</h3>
+                    <p>
+                        Professional websites for local businesses
+                        and personal projects.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Computer Services</h3>
+                    <p>
+                        Basic computer setup, software installation
+                        and technical assistance.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Digital Support</h3>
+                    <p>
+                        Helpful digital solutions for everyday
+                        business requirements.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Enquiry Section -->
+        <section id="enquiry">
+
+            <h2>Submit an Enquiry</h2>
+
+            <form id="enquiryForm" novalidate>
+
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    autocomplete="name"
+                    required
+                    aria-describedby="nameError"
+                >
+                <!-- Error text for this field (JS can fill it) -->
+                <span class="error" id="nameError" aria-live="polite"></span>
+
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    autocomplete="email"
+                    required
+                    aria-describedby="emailError"
+                >
+                <span class="error" id="emailError" aria-live="polite"></span>
+
+                <label for="service">Select Service</label>
+
+                <select id="service" name="service" required aria-describedby="serviceError">
+
+                    <option value="">Choose a service</option>
+
+                    <option value="website">
+                        Website Development
+                    </option>
+
+                    <option value="computer">
+                        Computer Services
+                    </option>
+
+                    <option value="digital">
+                        Digital Support
+                    </option>
+
+                </select>
+                <span class="error" id="serviceError" aria-live="polite"></span>
+
+                <label for="message">Your Requirement</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Describe your requirement"
+                    required
+                    aria-describedby="messageError"
+                ></textarea>
+                <span class="error" id="messageError" aria-live="polite"></span>
+
+                <button type="submit">
+                    Submit Enquiry
+                </button>
+
+                <!-- role="status" makes screen readers read the message out -->
+                <p id="formMessage" role="status" aria-live="polite"></p>
+
+            </form>
+
+        </section>
+
+
+        <!-- Status Section -->
+        <section id="status">
+
+            <h2>Track Request Status</h2>
+
+            <p>
+                Enter your request ID to check the current status
+                of your enquiry.
+            </p>
+
+            <!-- Added a real label, placeholder alone is not enough for accessibility -->
+            <label for="requestId">Request ID</label>
+            <input
+                type="text"
+                id="requestId"
+                placeholder="Example: SH1001"
+                autocomplete="off"
+            >
+
+            <button type="button" onclick="checkStatus()">
+                Check Status
+            </button>
+
+            <p id="statusMessage" role="status" aria-live="polite"></p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            &copy; 2026 ServiceHub. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
