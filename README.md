@@ -2,7 +2,7 @@
 
 A responsive website where customers can discover local services, send an enquiry, and track the status of their request. Built for a simulated service company called **ServiceHub** as part of the Arrowstack Web Development Internship (Project 1).
 
-**Live site:** _add your GitHub Pages link here_
+**Live site:** https://mishramanu4656-tech.github.io/local-business-service-portal/
 **Demo video:** _add your video link here_
 
 ## Project Overview
@@ -126,16 +126,16 @@ Test cases are listed in `docs/test-cases.md`. Screenshots are in the `screensho
 
 ## Performance and Accessibility Review
 
-Lighthouse (Chrome DevTools) was used to check the site.
+The live site was tested on 30 Sep 2026 using Google PageSpeed Insights (which runs Lighthouse). Screenshots are in the `screenshots/` folder (`08-lighthouse-desktop.png` and `08-lighthouse-mobile.png`).
 
-| Category | Score |
-|----------|-------|
-| Performance | _add score_ |
-| Accessibility | _add score_ |
-| Best Practices | _add score_ |
-| SEO | _add score_ |
+| Category | Desktop | Mobile |
+|----------|---------|--------|
+| Performance | 100 | 100 |
+| Accessibility | 100 | 100 |
+| Best Practices | 100 | 100 |
+| SEO | 100 | 100 |
 
-_Add one or two lines about what you improved after the first run._
+The site is small (plain HTML, CSS and JavaScript, no images or libraries), which helps the performance score. Semantic HTML, form labels, a skip link and visible keyboard focus helped the accessibility score.
 
 ## Known Limitations
 
