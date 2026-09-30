@@ -154,12 +154,13 @@ The site is small (plain HTML, CSS and JavaScript, no images or libraries), whic
 
 ## What I Learned
 
-- Writing semantic and accessible HTML
-- Validating forms in JavaScript and showing helpful errors
-- Making a layout responsive with CSS Grid and media queries
-- Using Git and GitHub to track a project step by step
-
-_Change this section to your own words._
+- How to write a webpage with semantic HTML, and why labels and headings in the right order matter for accessibility.
+- How to check a form with JavaScript and show a clear error under each wrong field.
+- How to make a page work on mobile, tablet and desktop using CSS Grid and media queries.
+- How to save data in the browser with localStorage and create a request ID for each enquiry.
+- How to upload a project to GitHub, publish it with GitHub Pages, and test it with Google PageSpeed (Lighthouse).
+- When my Submit button did nothing, I learned that all project files must match each other. My index.html was an old version and did not match the new script.js.
+- I used an AI assistant to help write and review the code. I tested the project myself and worked to understand how each part works.
 
 ## Author
 
