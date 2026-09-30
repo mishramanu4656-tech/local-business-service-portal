@@ -6,34 +6,34 @@ _Write the real date for each entry. Change the text so it matches what you actu
 
 | Date | What I did |
 |------|------------|
-| _date_ | Read the Arrowstack handbook and picked Project 1 (Local Business Service Portal) |
-| _date_ | Wrote requirements.md (users, scope, requirements) |
-| _date_ | Set up the project folder in VS Code and planned the page layout |
+| On or before 2026-09-30 | Read the Arrowstack handbook and picked Project 1 (Local Business Service Portal) |
+| 2026-09-30 | Wrote requirements.md (users, scope, requirements) |
+| On or before 2026-09-30 | Set up the project folder in VS Code and planned the page layout |
 
 ## Week 2 - Core development
 
 | Date | What I did |
 |------|------------|
-| _date_ | Made the first version of index.html, style.css, script.js and README.md with help from an AI assistant |
-| _date_ | Tested the form and status checker in the browser |
+| On or before 2026-09-30 | Made the first version of index.html, style.css, script.js and README.md with help from an AI assistant |
+| 2026-09-30 | Tested the form and status checker in the browser (Live Server and live site) |
 
 ## Week 3 - Testing and improvement
 
 | Date | What I did |
 |------|------------|
 | 2026-09-30 | Reviewed all files with an AI assistant and improved them: semantic HTML (main, skip link, labels), per-field validation, request ID creation with localStorage, CSS fixes (hero width, tablet layout, focus outline) |
-| _date_ | Ran the test cases and saved screenshots |
-| _date_ | Ran Lighthouse and noted the scores |
+| 2026-09-30 | Ran the test cases (validation, request ID, status check) and saved Lighthouse screenshots |
+| 2026-09-30 | Ran Google PageSpeed (Lighthouse) on the live site: all four scores 100 on desktop and mobile |
 
 ## Week 4 - Finalize and submit
 
 | Date | What I did |
 |------|------------|
-| _date_ | Pushed the project to GitHub |
-| _date_ | Deployed to GitHub Pages |
-| _date_ | Recorded the demo video |
-| _date_ | Prepared answers for the viva questions |
-| _date_ | Submitted the project |
+| 2026-09-30 | Pushed the project to GitHub |
+| 2026-09-30 | Deployed to GitHub Pages and checked the live site (enquiry and status check worked) |
+| 2026-09-30 | Recorded the demo video and shared it through Google Drive |
+| To do | Prepare answers for the viva questions |
+| To do | Submit the project |
 
 ## Problems I faced and how I solved them
 
